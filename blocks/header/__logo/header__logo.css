@@ -3,6 +3,14 @@
   margin-top: 28px;
   width: 176px;
   height: 52px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: 0.5s ease-in-out;
+}
+
+.header__logo:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 425px) {
@@ -10,8 +18,5 @@
     width: 142px;
     height: 42px;
     margin-top: 16px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
   }
 }

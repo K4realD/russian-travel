@@ -2,6 +2,8 @@
   margin: 0;
   text-decoration: none;
   text-decoration: underline;
+  font-size: 18px;
+  line-height: 1.22;
   color: #ffff;
   transition: 0.5s ease-in-out;
 }
